@@ -1,0 +1,34 @@
+{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.cabecalho {
+padding: 15px 25px;
+}
+
+.cartao {
+width: 200px;
+height: 110px;
+}
+
+.cartao-imagem {
+width: 10%;
+}
+.cabecalho { 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 25px; 
+} 
+body { 
+  display: flex; 
+  flex-direction: column;
+  background-color: #f5f2f2; 
+  min-height: 100vh; 
+  background-color: #7e3e1c; 
+  font-family: sans-serif;
+}
+.cabecalho-link {
+    color: #fff;
+}
